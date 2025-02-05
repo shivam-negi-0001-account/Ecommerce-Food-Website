@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER SECTION */
+.logo img {
+  width: 60px;
+}
+
+nav ul li a {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: green !important;
+}
+
+.header {
+  background-color: #010103 !important;
+  border-bottom: 3px solid #ffc107 !important;
+}
+
+/*  SECTION ONE  */
+/* https://codingcirculate-restaurant-design.on.fleek.co/static/media/home-img.965e18e60a1521e7e1af */
+.foodSectionOne {
+  background-image: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)), url(https://codingcirculate-restaurant-design.on.fleek.co/static/media/home-img.965e18e60a1521e7e1af);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foodSectionTwo {
+  background-image: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)), url(https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foodSectionThree {
+  background-image: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)), url(https://media.istockphoto.com/id/1203315556/photo/delicious-assamese-vegetarian-dish.jpg?s=612x612&w=0&k=20&c=sl5BYYyF6sifP-LZwC15jOWMxFbW9FwMitnVlhKyf-k=);
+  height: 80vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.getYoursNow {
+  padding: 8px 30px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-title span {
+  color: #ffc107;
+}
+
+.sectionContent h1 {
+  font-size: 70px;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
+
+.sectionContent p {
+  width: 55%;
+  font-weight: lighter;
+  line-height: 30px !important;
+  text-transform: capitalize !important;
+  font-size: 20px;
+}
+
+.sectionContent {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* justify-content: space-around; */
+}
+
+/*  ABOUT SECTION */
+.aboutFoodImg img {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.aboutSection h4 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.aboutSection {
+  background-color: #010103;
+}
+
+.aboutSection h3 {
+  text-align: center;
+  /* color: # !important;/ */
+  color: #ffc107;
+
+  font-size: 40px !important;
+  font-weight: 600;
+}
+
+.aboutContentSection p {
+  text-transform: capitalize !important;
+  color: #ccc;
+  line-height: 30px;
+  margin-top: 15px;
+  font-size: 18px !important;
+
+}
+
+.learnMore {
+  padding: 5px 25px;
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+/* ABOUT SECTION TWO */
+.aboutSectionTwo{
+  background: #010103;
+}
+
+.aboutContentSectionTwo h4{
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffff;
+}
+.aboutSectionTwo h3{
+  color: #ffc107;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* ABOUT SECTION THREE */
+.aboutSectionThree{
+  background: #010103;
+}
+
+.aboutSectionThree h4{
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffff;
+}
+.aboutSectionThree h3{
+  color: #ffc107 ;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+/*  MENU SECTION  */
+.menuSection {
+  background-color: #010103;
+  /* background-color: transparent; */
+}
+
+.menuSection h4 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.menuSection img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  /* background: #000; */
+  /* text-align: center; */
+
+}
+
+.card-body p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.card-body h5 {
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize !important;
+}
+
+.card:hover {
+  background-color: rgba(0, 128, 0, 0.295);
+  /* opacity: 0.5; */
+  transition: 0.4s;
+}
+
+.card {
+  border: 2px solid #ffc107;
+  background-color: transparent;
+  width: 90%;
+}
+
+.addToCart {
+  padding: 5px 25px;
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.menuHeading span {
+  color: #ffc107;
+}
+
+.menuHeading {
+  text-align: center;
+  color: #fff;
+  font-weight: 550;
+  font-size: 40px;
+  margin-top: 10px;
+  background: #000;
+  padding: 10px;
+}
+
+/* PRODUCTS SECTION */
+.productsSection {
+  background: hsl(240, 50%, 1%);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.productsHeading {
+  text-align: center;
+  color: #fff;
+  font-weight: 550;
+  font-size: 40px;
+  margin-top: 10px;
+  background: #000;
+  padding: 10px;
+}
+
+.productsHeading span {
+  color: #ffc107;
+}
+
+.icon i {
+  /* text-align: center; */
+  /* margin: auto; */
+  border: 2px solid #ffc107;
+  color: #fff;
+}
+
+.icon i:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.stars i {
+  color: #ffc107;
+}
+
+/*  CUSTMOR SERVICE  */
+.custmorSection {
+  background: #010103;
+  margin-top: -10px;
+}
+
+.reviewImg {
+  width: 100px;
+}
+
+.custmorImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* text-align: center; */
+  /* margin: auto; */
+}
+
+.custmorHeading {
+  text-align: center;
+  color: #fff;
+  font-weight: 550;
+  font-size: 40px;
+  margin-top: 10px;
+  background: #000;
+  padding: 10px;
+}
+
+.custmorHeading span {
+  color: #ffc107;
+}
+
+.custmoreServicePera {
+  font-size: 18px !important;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  CONTACT SECTION */
+.contactSection {
+  background: #010103;
+}
+
+.contactSection h3 {
+  color: #ffc107;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactContentSection {
+  padding: 10px;
+  /* margin-left: -40px; */
+  background: #13131a !important;
+}
+
+.contactContentSection h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.contactContentSection input {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 8px 100px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contactContentSection input:hover {
+  background: #ccc;
+  transition: 0.4s;
+}
+
+
+/* BLOG SECTION */
+.blogSection h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.blogSection span {
+  color: #ffc107;
+}
+
+.blogSection {
+  background: #010103;
+}
+
+/*  FOOTER SECTION */
+.footerSection {
+  background: #13131a;
+}
+
+.footerIcons i {
+  margin: 20px;
+  border: 3px solid #ffc107;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.footerIcons i:hover {
+  background-color: #ffc107;
+  transition: 0.4s;
+}
+
+.list ul li:hover {
+  background-color: #ffc107;
+  transition: 0.4s;
+}
+
+.list ul li {
+  padding: 5px 25px;
+  list-style: none;
+  color: #ffff;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #ffc107;
+}
+
+
+/* RESPONSIVE */
